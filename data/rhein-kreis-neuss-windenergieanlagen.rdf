@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcatde="http://dcat-ap.de/def/dcatde/"
+>
+  <dcat:Dataset rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen">
+    <dct:title>Rhein-Kreis Neuss: Windenergieanlagen</dct:title>
+    <dct:description>Die Karte zeigt die Standorte der Windenergieanlagen im Rhein-Kreis Neuss</dct:description>
+    <dcat:landingPage rdf:resource="https://opendata.rhein-kreis-neuss.de/explore/dataset/rhein-kreis-neuss-windenergieanlagen/"/>
+    <dct:identifier>rhein-kreis-neuss-windenergieanlagen@rhein-kreis-neuss</dct:identifier>
+    <dcat:keyword>energie</dcat:keyword>
+    <dcat:keyword>erneuerbare-energie</dcat:keyword>
+    <dcat:keyword>windkraft</dcat:keyword>
+    <dcat:keyword>windrad</dcat:keyword>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dct:publisher>
+      <foaf:Organization rdf:nodeID="N6d4deccb9ab14c6cb98259f0f3e8fe96">
+        <foaf:name> Landesamt für Natur, Umwelt und Verbraucherschutz Nordrhein-Westfalen</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-kml">
+        <dct:title>kml</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (kml)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/kml"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-jsonld">
+        <dct:title>jsonld</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (jsonld)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/jsonld"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSONLD"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-geojson">
+        <dct:title>geojson</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (geojson)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/geojson"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-ov2">
+        <dct:title>ov2</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (ov2)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/ov2"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OV2"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-gpx">
+        <dct:title>gpx</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (gpx)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/gpx"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GPX"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-parquet">
+        <dct:title>parquet</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (parquet)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/parquet"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PARQUET"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-xls">
+        <dct:title>xls</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (xls)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/xls"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-shp">
+        <dct:title>shp</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (shp)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/shp"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-rdfxml">
+        <dct:title>rdfxml</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (rdfxml)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/rdfxml"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDFXML"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-jsonl">
+        <dct:title>jsonl</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (jsonl)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/jsonl"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSONL"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-n3">
+        <dct:title>n3</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (n3)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/n3"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/N3"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-csv">
+        <dct:title>csv</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (csv)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/csv"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-turtle">
+        <dct:title>turtle</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (turtle)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/turtle"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TURTLE"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-json">
+        <dct:title>json</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (json)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/json"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen-fgb">
+        <dct:title>fgb</dct:title>
+        <dct:description>Rhein-Kreis Neuss: Windenergieanlagen (fgb)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.de/def/licenses/dl-zero-de/2.0"/>
+        <dcat:accessURL rdf:resource="https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-windenergieanlagen/exports/fgb"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/FGB"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-04T07:49:36.309000+00:00</dct:modified>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+    <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/openNRW"/>
+  </dcat:Dataset>
+</rdf:RDF>
