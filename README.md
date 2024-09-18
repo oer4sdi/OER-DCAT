@@ -1,4 +1,4 @@
-# OER_DCAT (Data Catalog Vocabulary)
+# OER-DCAT (Data Catalog Vocabulary)
 This repository contains the tutorial "DCAT (Data Catalog Vocabulary)" which is available for reuse as an Open Educational Resorce (OER). DCAT is a W3C recommendation for describing datasets on the web. DCAT can be used to describe datasets and data services in a catalog using standard terms that facilitate the consumption and aggregation of metadata from multiple catalogs.
 
 In this tutorial, you will learn the importance of having a standardized metadata format when sharing geospatial data. 
@@ -26,5 +26,18 @@ In both cases, you will need about 90 minutes to use this tutorial. It would als
 
 ### How to use the OER module
 
-### Open License
-This tutorial has been developed in the context of the OER4SDI Project at the Institute for Geoinformatics, University of Münster. Authors are James Ondieki and Albert Remke.
+Simply download the PDF file from the /docs folder, read and follow the tutorial.
+
+### Authors and Funding
+
+This Tutorial has been developed in the context of the OER4SDi project at the Institute for Geoinformatics, University of Münster. Authors are James Ondieki and Albert Remke.
+
+The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
+
+### Copyright and License Statement
+
+You are free to use, alter and share the content of the tutorial under the terms of the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) license, unless explicitly stated otherwise for specific parts of the content. All logos used are generally excluded. 
+
+Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms: https://github.com/oer4sdi/OER-DCAT/blob/main/LICENSE.md.
+
+The authors can be mentioned as follows: OER-DCAT (2024), James Ondieki, Albert Remke, [www.uni-muenster.de](http://www.uni-muenster.de), [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de). 
