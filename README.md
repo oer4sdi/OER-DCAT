@@ -1,12 +1,15 @@
 # OER-DCAT (Data Catalog Vocabulary)
 This repository contains the tutorial "DCAT (Data Catalog Vocabulary)" which is available for reuse as an Open Educational Resorce (OER). DCAT is a W3C recommendation for describing datasets on the web. DCAT can be used to describe datasets and data services in a catalog using standard terms that facilitate the consumption and aggregation of metadata from multiple catalogs.
 
-In this tutorial, you will learn the importance of having a standardized metadata format when sharing geospatial data. 
-- You will learn how to create DCAT metadata using RDForms, which is an online tool.
-- You will learn how to use SPARQL to query DCAT metadata. This will enable you to extract some information of interest from the metadata.
-- You will learn how to use Docker to configure Apache Jena Fuseki Server, which will serve as a SPARQL server, to manage, store and run the SPARQL queries.
+In this tutorial, you will learn: 
 
-This tutorial is structured as follows:
+- how important a standardized metadata format is for sharing geospatial data
+- how to create DCAT metadata using RDForms
+- how to use Docker to download and configure Apache Jena Fuseki Server
+- how to use SPARQL to query DCAT metadata
+
+##### This tutorial is structured as follows:
+
 - Overview
 - Background
 	- Data Sharing and Metadata
