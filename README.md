@@ -43,4 +43,4 @@ You are free to use, alter and share the content of the tutorial under the terms
 
 Any code provided with the tutorial can be used under the terms of the MIT license. Please see the full license terms: https://github.com/oer4sdi/OER-DCAT/blob/main/LICENSE.md.
 
-The authors can be mentioned as follows: OER-DCAT (2024), James Ondieki, Albert Remke, [www.uni-muenster.de](http://www.uni-muenster.de), [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de). 
+The tutorial can be referenced as follows: “OER-DCAT”, OER4SDI project / University Münster,[ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
